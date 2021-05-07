@@ -6,10 +6,19 @@ body{
     background-color: rgb(255, 228, 214);
 }
 
+.blockquote{
+    margin-top: 0.5rem;
+    margin-bottom: 6rem;
+    font-family: Roboto;
+    font-size: 1.35em;
+    font-weight: 800;
+}
+
 .btn.btn{
     background-color:rgb(255, 148, 95);
     color: rgb(255, 228, 214);
     font-family: Montserrat,bold;
+    font-size: 1.45em;
 }
 
 .btn.btn:hover{
@@ -18,6 +27,7 @@ body{
 
 .offer-card-link {
     color: black;
+
     text-decoration: none;
 
     
@@ -52,6 +62,7 @@ body{
 .Offer a{
     color: rgb(255, 228, 214);
     text-decoration: none;
+    font-size: 1.6em;
     padding:2rem;
 
 }
@@ -74,3 +85,25 @@ body{
 }
 
 
+.new-offer{
+    font-family: Montserrat;
+    margin-bottom: 2.5rem;
+}
+
+.forms{
+    font-family: Roboto;
+    font-weight: 900;
+    select,textarea,input{
+        background-color:rgb(255, 192, 160);
+    }   
+}
+
+
+.btn.btn-back{
+    background-color:rgb(235, 127, 74);
+    color: rgb(255, 228, 214);
+    font-family: Montserrat,bold;
+    font-size: 1.2em;
+}
+
+  

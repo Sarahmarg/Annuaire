@@ -1,5 +1,8 @@
-<h1>New Offer</h1>
+<div class="new-offer"><h1>Créer ton offre !</h1></div>
+
 
 <%= render 'form', offer: @offer %>
 
-<%= link_to 'Back', offers_path %>
+<div class="d-grid gap-2 col-4 mx-auto" style="margin-top: 1.5rem;margin-bottom: 6rem">
+    <%= link_to 'Back', offers_path, class: 'btn btn-back'%>
+    </div>

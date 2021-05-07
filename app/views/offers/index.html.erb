@@ -1,10 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<div class="d-grid gap-2 col-6 mx-auto" style="margin: 6rem;">
-    <%= link_to 'New Offer', new_offer_path, class: 'btn btn' %>
+<div class="d-grid gap-2 col-6 mx-auto" style="margin-top: 6rem;">
+    <%= link_to 'Créer une Offre !', new_offer_path, class: 'btn btn' %>
 </div>
 
-
+<figure class="text-center">
+  <blockquote class="blockquote" >
+    <p>Dépose ta recherche ou ton offre d'emploie pour et rejoins la webteam !</p>
+  </blockquote>
+</figure>
 
 <div class="d-flex justify-content-start flex-wrap" style="gap: 3rem">
   <% @offers.each do |offer| %>

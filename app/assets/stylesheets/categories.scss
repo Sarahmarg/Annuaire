@@ -1,3 +1,17 @@
 // Place all the styles related to the Categories controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.categorie{
+    font-family:Montserrat;
+    margin-bottom: 2rem;
+}
+
+.table.table-striped{
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+.btn.btn.edit{
+    font-size: 0.9em;
+}
