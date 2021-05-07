@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<div class="d-grid gap-2 col-6 mx-auto" style="margin: 6rem;">
+    <%= link_to 'New Offer', new_offer_path, class: 'btn btn' %>
+</div>
+
+
+
+<div class="d-flex justify-content-start flex-wrap" style="gap: 3rem">
+  <% @offers.each do |offer| %>
+    <div><a class="offer-card-link" href="<%= offer_path(offer.id) %>">
+      <div class="card mb-3" style="max-width: 20rem;">
+        <div class="card-header"><%= offer.user %></div>
+        <div class="card-body">
+          <h5 class="card-title"><%= offer.title %></h5>
+          <p class="card-text"><%= offer.description %></p>
+          <p class="card-text"><small class="text-muted"><%= offer.price %>€</small></p>
+        </div>
+    </div>
+    </a></div>
+  <% end %>
+</div>
+
+
+<br>
+
+

@@ -1,0 +1,76 @@
+// Place all the styles related to the Offers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body{
+    background-color: rgb(255, 228, 214);
+}
+
+.btn.btn{
+    background-color:rgb(255, 148, 95);
+    color: rgb(255, 228, 214);
+    font-family: Montserrat,bold;
+}
+
+.btn.btn:hover{
+    background-color: rgb(253, 134, 75);
+}
+
+.offer-card-link {
+    color: black;
+    text-decoration: none;
+
+    
+    &:hover {
+        color: black;
+    }
+}
+
+.card.mb-3{
+    font-family: Roboto,;
+    font-weight: 800;
+}
+
+.card-header{
+    background-color: black;
+    color:rgb(255, 228, 214)
+}
+
+.card-body{
+    background-color:rgb(255, 228, 214) ;
+}
+
+.card-body:hover{
+    background-color: rgb(255, 192, 160);
+}
+
+.navbar.navbar-dark.bg-dark{
+    font-family: Montserrat,bold;
+    padding: 2rem;
+}
+
+.Offer a{
+    color: rgb(255, 228, 214);
+    text-decoration: none;
+    padding:2rem;
+
+}
+
+.Offer a:hover{
+    color: rgb(253, 134, 75);
+}
+
+
+
+.category a{
+    color: rgb(255, 228, 214);
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+}
+
+.category a:hover{
+    color: rgb(253, 134, 75);
+}
+
+

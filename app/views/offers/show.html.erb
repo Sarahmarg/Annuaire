@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @offer.user %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @offer.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @offer.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @offer.price %>
+</p>
+
+<p>
+  <strong>Adress:</strong>
+  <%= @offer.adress %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @offer.phone %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @offer.category_id %>
+</p>
+
+<%= link_to 'Edit', edit_offer_path(@offer) %> |
+<%= link_to 'Back', offers_path %>
+<%= link_to 'Destroy', @offer, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>

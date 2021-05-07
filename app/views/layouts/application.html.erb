@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    
+    <title>Annuaire</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    </head>
+
+  <body>
+
+  <nav class="navbar navbar-dark bg-dark" style="margin-bottom:4rem">
+        <div class= "Offer">
+          <h1><%= link_to "Les Offres", offers_path(@offers) %></h1>
+        </div>
+
+        <div class= "category"> 
+          <%= link_to "Catégories", categories_path(@categories) %></div>
+        </div>
+  </nav>
+
+    <main class="container">
+      <%= yield %>
+    </main>
+  </body>
+</html>
